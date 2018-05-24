@@ -1,0 +1,151 @@
+[
+  {
+    "elements": [
+      {
+        "id": "declined-payment;",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 1976912
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged in user",
+            "result": {
+              "status": "passed",
+              "duration": 17001315375
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select flight",
+            "result": {
+              "status": "passed",
+              "duration": 10538690252
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select fare",
+            "result": {
+              "status": "passed",
+              "duration": 7389692349
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I proceed to Potential trip page",
+            "result": {
+              "status": "passed",
+              "duration": 4682045212
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I cancel seat pop up",
+            "result": {
+              "status": "passed",
+              "duration": 5428686643
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add bags to my booking",
+            "result": {
+              "status": "passed",
+              "duration": 4545400548
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay with declined card",
+            "result": {
+              "status": "passed",
+              "duration": 9750729957
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see payment declined message",
+            "result": {
+              "status": "passed",
+              "duration": 6052537613
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "after second declined payment I am redirected to home page",
+            "result": {
+              "status": "passed",
+              "duration": 13718422866
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Projects\\TestAutomation-Cucumber-master4\\step_definitions\\step_definitions.js:51"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "declined-payment",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Declined Payment",
+    "tags": [],
+    "uri": "C:\\Projects\\TestAutomation-Cucumber-master4\\features\\declinedPayment.feature"
+  }
+]
